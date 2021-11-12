@@ -5,10 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "preexport": "npm run build",
-    "export": " next export",
-    "startap": "serve out",
-    "start": "next start",
+     "start": "NODE_ENV=production node server.js",
     "lint": "next lint"
   },
   "dependencies": {
