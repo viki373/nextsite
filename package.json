@@ -1,0 +1,36 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "preexport": "npm run build",
+    "export": " next export",
+    "startap": "serve out",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@brainhubeu/react-carousel": "^2.0.4",
+    "@trendyol-js/react-carousel": "^2.0.0",
+    "bootstrap": "^4.6.0",
+    "json-server": "^0.16.3",
+    "masonry-layout": "^4.2.2",
+    "next": "11.0.1",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.6.1",
+    "react-dom": "^17.0.2",
+    "react-elastic-carousel": "^0.11.5",
+    "react-slick": "^0.28.1",
+    "slick-carousel": "^1.8.1",
+    "spintax": "0.0.1",
+    "styled-components": "^5.3.1",
+    "swiper": "^6.8.4",
+    "wookmark": "^2.2.0"
+  },
+  "devDependencies": {
+    "eslint": "7.30.0",
+    "eslint-config-next": "11.0.1"
+  }
+}

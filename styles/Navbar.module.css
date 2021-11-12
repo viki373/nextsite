@@ -1,0 +1,27 @@
+.img {
+    max-width: 230px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.desktop {
+    display: none;
+}
+.text {
+    display: none;
+}
+
+@media (min-width:576px) {
+    .text {
+        display: block;
+    }
+}
+@media (min-width:992px) {
+    .desktop {
+        display: block;
+    }
+    .mobile {
+        display: none;
+    }
+}
